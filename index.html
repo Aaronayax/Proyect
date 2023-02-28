@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!--Metadatos-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Aaerion">
+    <meta name="description" content="Proyecto final">
+    <meta name="keywords" content="HTML, CSSS, JavaScript, React">
+    <title>Proyecto Final | Developer Front-End</title>
+    <!--bootstrap--> <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--css--><link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/Favicon.png">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  </head>
+<body>
+<!--barra de nav toggler-->
+<nav class="navbar navbar-expand-md navbar-light">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarToggler">
+      <!--modifico al icono--><a class="navbar-brand" href="#">
+      <img src="images/Favicon.png" width="50" alt="Logo de la pagina">
+    </a>
+      <!--modifico el desplegable, centrar contenido flex-->
+      <ul class="navbar-nav d-flex justify-content-center align-items-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="mi">Acerca de mi</a>
+       
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="experiencia">experiencia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--Hero-->
+<section class="hero align-items-stretch">
+  <div class="hero-principal">
+    <img class="Imagen-de-desarrollador" src="images/perfil.svg.jpg" alt="IMAGEN DE DESARROLLADOR">    
+    <h1>Bienvenidos a mi Perfil</h1>
+    <h2>Proyecto final integrador de conocimientos en HTML, CSS, JavaScript, bootstrap</h2>
+    <div class="hero-inferior">
+      <img class="hero-inferior-imagen img-fluid"  src="images/imagen final_files/hero-inferior.svg" alt="iconos de conocimientos"> 
+
+
+    </div>
+
+  </div>
+
+
+</section>
+
+<!--acerca de mi-->
+<section id="mi"  class="sobre-mi seccion-oscura">
+  <div class="contenedor">
+    <h2 class="seccion-titulo">Bienvenidos, te voy a contar un poco de mi </h1>
+    <p class="seccion-texto">Tengo 29 años , recido en la provincia de Buenos Aires y actualmente estudio Delovoper Front-End,</p>
+  </div>
+</section>
+
+<!--Experiencia-->
+<section id="experiencia" class="experiencia seccion-clara">
+  <div class="container text-center">
+   <div class="row"> 
+      <!--desarrollo-->
+    <div class="columna col-12 col-md-4">
+      <i class="bi bi-laptop"></i>    
+      <P class="experiencia-titulo"> Desarrollo Web</P>
+      <P>Realice un curso inicial de Argentina Programa donde aprendi los fundamentos basicos de Front-End.</P>
+      <div class="badges-contenedor">
+        <span class="badge rounded-pill text-bg-primary">HTML</span>
+        <span class="badge rounded-pill text-bg-primary">CSS</span>
+        <span class="badge rounded-pill text-bg-primary">JavaScript</span>
+        <span class="badge rounded-pill text-bg-primary">React</span>
+      </div>  
+    </div>
+    
+      <!--experiencia laboral-->
+    <div class="columna col-12 col-md-4">
+      <i class="bi bi-buildings-fill"></i>   
+      <P class="experiencia-titulo"> Experiencia laboral</P>
+      <p class="sub-titulo">
+      </p>
+      <P>Debido a cuestiones de la oferta laboral desde el momento que me inicie en el mundo del trabajo, forme un perfil fuertemente abocado en las operaciones logisticas de porte multinacional</P>
+      <div class="badges-contenedor">
+        <span class="badge rounded-pill text-bg-primary">Deposito</span>
+        <span class="badge rounded-pill text-bg-primary">Logistica</span>
+        <span class="badge rounded-pill text-bg-primary">Clasificacion</span>
+        <span class="badge rounded-pill text-bg-primary">Produccion</span>
+      </div>  
+    </div>
+    
+      <!--Estudios-->
+      <div class="columna col-12 col-md-4">
+        <i class="bi bi-book"></i>   
+        <P class="experiencia-titulo"> Academico</P>
+        <P>Actualmente curso la carrera de Licenciatura en Logistica, como asi tambien poseeo titulos previos de tecnicatura Portuaria y Logistica</P>
+        <div class="badges-contenedor">
+          <span class="badge rounded-pill text-bg-primary">Escuela Primaria</span>
+          <span class="badge rounded-pill text-bg-primary">Escuela Secundaria</span>
+          <span class="badge rounded-pill text-bg-primary">Universitario</span>
+          <span class="badge rounded-pill text-bg-primary">Terciario</span>
+        </div>  
+      </div>  
+  </div>
+  </div>
+</section>
+
+
+<!-- academico -->
+<section class="articulos justify-content-start">
+  <h2 class="seccion-titulo texto-negro">Desarrollo Web</h2>
+  <div class="card">
+    <div class="card-header">
+    Capacitaciones en Informatica
+    </div>
+    <ul class="list-group list-group-flush">
+      <a href="https://www.ticmas.com/" target="_blank" rel="pagina de estudio">
+        <li class="list-group-item">
+         Curso de JavaScript-Desarrollador Front-End
+        </li>
+      </a>
+      <a href="https://www.ticmas.com/" target="_blank" rel="pagina de estudio">
+        <li class="list-group-item">
+          Curso de HTML-Desarrollador Front-End
+        </li>
+      </a>
+      <a href="https://www.ticmas.com/" target="_blank" rel="pagina de estudio">
+        <li class="list-group-item">
+         Curso de CSS-Desarrollador Front-End
+        </li>
+    </ul>
+</section>
+
+<!-- Trabajos -->
+<section id="trabajos" class="trabajos seccion-clara">
+  <h2 class="seccion-titulo">Experiencia Laboral</h2>
+  <h3 class="seccion-descripcion">Trabajos Destacados</h3>
+  
+  <!-- Carrusel -->
+  <div id="trabajos-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container">
+          <img class="trabajos-imagen rounded-circle" src="images/deposito.jpg" alt="Foto de deposito">
+          <p class="trabajos-texto">Me desempeñe en el sector de depsito , consistia en armar pedidos , ordenar el lugar como asi tambien preparacion de formulas, trabaje desde el periodo (2011-2013)</p>
+          <div class="trabajos-info">
+            <p class="cliente">Referencia Lucas Martinez</p>
+            <p class="cargo">Encargado deposito Granix</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container">
+          <img class="trabajos-imagen rounded-circle" src="images/deposito2.jpg" alt="Foto de camiones">
+          <p class="trabajos-texto">Mi tarea especifica era la preparacion de de pick-in y cargar al transporte, trabaje en el perdiodo de (2015-2020)</p>
+          <div class="trabajos-info">
+            <p class="cliente">Referencia Sebastian Mareco</p>
+            <p class="cargo">Gerente de Produccion</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container">
+          <img class="trabajos-imagen rounded-circle" src="images/cafe.jpg" alt="Foto de cafe">
+          <p class="trabajos-texto">Tareas de Mantenimiento de maquinas de tostado, trabaje en el periodo de (2020-2022)</p>
+          <div class="trabajos-info">
+            <p class="cliente">Referencia Juan Vidale</p>
+            <p class="cargo">Encargado de Produccion</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+</section>
+
+<!-- Pie de pagina-->
+<footer id="contacto" class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+  <img class="footer-logo" src="images/Favicon.png" alt="Logo del portafolio">
+  <p class="footer-texto text-center">Busco iniciarme en el mundo del desarollo.<br>Se parte de mi crecimiento.</p>
+  <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+    <a href="https://twitter.com/" target="_blank" rel="r">
+      <i class="bi bi-twitter"></i>
+    </a>
+    <a href="https://github.com/" target="_blank" rel="r">
+      <i class="bi bi-github"></i>
+    </a>
+    <a href="https://www.linkedin.com/" target="_blank" rel="r">
+      <i class="bi bi-linkedin"></i>
+    </a>
+    <a href="https://www.instagram.com/" target="_blank" rel="r">
+      <i class="bi bi-instagram"></i>
+    </a>
+    <a href="mailto:aacabre@micorreo.com" target="_blank" rel="r">
+      <i class="bi bi-envelope"></i>
+    </a>
+  </div>
+  <div class="derechos-de-autor">Creado por Cabrera Aaron (2023) &#169;</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
+          
+      
+    
+    </div>
+
+
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!--Java--> <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html> 
